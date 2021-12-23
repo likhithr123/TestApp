@@ -1,0 +1,25 @@
+.center{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50);
+    border: 5px solid #FFFF;
+    padding: 0;
+}
+.card{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 10px;
+}
+li{
+    list-style-type:none;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+li .card:hover{
+    border:1px solid blue;
+}
+ol{
+    padding: 0;
+    
+}

@@ -1,0 +1,84 @@
+{
+    "angular": [{
+            "questionText": "Which of the following is true about ng-app directive?",
+            "options": [{
+                    "text": "ng-app directive defines and links an AngularJS application to HTML."
+                },
+                {
+                    "text": "ng-app directive indicates the start of the application."
+                },
+                {
+                    "text": "Both of the above.",
+                    "correct" :true
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": " ng-app directive defines and links an AngularJS application to HTML. It also indicate the start of the application.?"
+        },
+        {
+            "questionText": "$rootScope is the parent of all of the scope variables.?",
+            "options": [{
+                    "text": "True",
+                    "correct":true
+                },
+                {
+                    "text": "false"
+            
+                }
+            ],
+            "explanation": "$rootScope is the parent of all of the scope variables."
+        },
+        {
+            "questionText": " Which of the following is true about ng-disabled directive??",
+            "options": [{
+                    "text": "ng-disabled directive can enable a given control."
+                },
+                {
+                    "text": "ng-disabled directive can disable a given control."
+                   
+                },
+                {
+                    "text": "Both of the above.",
+                    "correct": true
+                },
+                {
+                    "text":"None of the above."
+                }
+            ],
+            "explanation": "ng-disabled directive disables/enables a given control"
+        },
+        {
+            "questionText": "Which of the following is true about provider?",
+            "options": [{
+                    "text": "provider is used by AngularJS internally to create services, factory etc."
+                },
+                {
+                    "text": "provider is used during config phase"
+                },
+                {
+                    "text": "provider is a special factory method."
+                },
+                {
+                    "text": "All of the above.",
+                    "correct":true
+                }
+            ],
+            "explanation": "provider is used by AngularJS internally to create services, factory etc. during config phase(phase during which AngularJS bootstraps itself). Below mention script can be used to create MathService that we've created earlier. Provider is a special factory method with a method get() which is used to return the value/service/factory."
+        },
+        {
+            "questionText": " constants are used to pass values at config phase.",
+            "options": [{
+                    "text": "True",
+                    "correct": true
+                },
+                {
+                    "text": "false"
+                }
+            ],
+            "explanation": "constants are used to pass values at config phase considering the fact that value cannot be used to be passed during config phase.s"
+        }
+     
+    ]
+}
